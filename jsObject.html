@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>JavaScript</title>
+	</head>
+	<body>
+		<script>
+
+			//Three way to create object
+				//1.By object literal
+				var emp={id:101,name:"shohan",age:50};
+				document.write(emp.id+" "+emp.name+" "+emp.age);
+
+				//By creating instance of Object
+				var emp2 = new Object();
+				emp2.id = 102;
+				emp2.name = "rahman";
+				document.write(emp2.id+" "+emp2.name);
+
+				//By using an Object constructor
+				function emp3(id,name){
+					this.id = id;
+					this.name = name;
+				}
+				
+				var e = new (103,"Sazal");
+				document.write(e.id+" "+e.name);
+				 
+</script>
+		
+	</body>
+</html>

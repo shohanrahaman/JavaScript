@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>JavaScript</title>
+	</head>
+	<body>
+		<script>
+
+			//Three way to create array
+				//1.array literal
+				var emp = ["shohan","shamim","rahaman"];
+				for (var i = 0; i < emp.length; i++) {
+				 document.write(emp[i]+"<br/>");
+				}
+				 
+				 //directly (new keyword)
+				 var emp2 = new Array();
+				 emp2[0] = "soha";
+				 emp2[1] = "shihab";
+				 emp2[2] = "shabib";
+
+				 for (var i = 0; i < emp2.length; i++) {
+				 	document.write(emp2[i]+"<br/>");
+				 }
+
+				 //constructor (new keyword)
+				 var emp3 = new Array("Hello","JavaScript","Array");
+				 for (var i = 0; i < emp3.length; i++) {
+				 	document.write(emp3[i]+"<br/>");
+				 }
+</script>
+		
+	</body>
+</html>
